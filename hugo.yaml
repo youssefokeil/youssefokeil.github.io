@@ -12,18 +12,7 @@ languages:
     languageName: "English"
     weight: 1
     contentDir: "content"
-    menu:
-      main:
-        - identifier: blog
-          name: Blog
-          title: Blog posts
-          url: /blogs
-          weight: 1
-        - identifier: gallery
-          name: Gallery
-          title: Image gallery
-          url: /gallery
-          weight: 2
+    
 
 outputs:
   home:
@@ -50,30 +39,7 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: gallery
-      name: Gallery
-      title: Gallery
-      url: /gallery
-      weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+
 
 params:
   title: "Hugo Profile"
@@ -98,8 +64,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: false
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -109,23 +75,23 @@ params:
 
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
+  color:
+    textColor: "#2d2d2d"
+    secondaryTextColor: "#5c5c5c"
+    textLinkColor: "#5b8fa8"
+    backgroundColor: "#f5f5f0"
+    secondaryBackgroundColor: "#e8e8e0"
+    primaryColor: "#5b8fa8"
+    secondaryColor: "#f0f0eb"
 
-  #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
+    darkmode:
+      textColor: "#e4e6eb"
+      secondaryTextColor: "#b0b3b8"
+      textLinkColor: "#88b4c8"
+      backgroundColor: "#18191a"
+      secondaryBackgroundColor: "#212529"
+      primaryColor: "#88b4c8"
+      secondaryColor: "#212529"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -144,7 +110,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -153,7 +119,10 @@ params:
     intro: "Hi, my name is"
     title: "Youssef."
     subtitle: "I am trying to make AI safer for life on earth."
-    content: "..."
+    content: | 
+          Final-year Computer and Systems Engineering student with strong Python and C/C++ skills and passion for information & probability theories as lenses for learning about the world. 
+    
+          Actively seeking AI Safety opportunities to decrease catastrophic risks from ASI & AGI.
     image: /images/hero.jpg
     bottomImage:
       enable: true
@@ -173,11 +142,16 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
+    bottomImage:
+      enable: true
+      roundimage: false
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      I am an AI engineer with deep passion for AI safety for the last 4 years. Through independent study and coursework I learnt to be able to work with and analyze frontier models.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am using those skills in developing a product to absorb the second-hand scene in Egypt and the Middle East, I am also working on a verification-acceleration project with Siemens as my graduation project.
+
+      Seeking AI Safety opportunities to learn about interpretability & scheming models.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -285,7 +259,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -377,11 +351,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/youssefokeil
+      linkedin: https://www.linkedin.com/in/youssef-okeil/
 
   # List pages like blogs and posts
   listPages:
