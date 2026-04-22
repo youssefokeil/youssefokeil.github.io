@@ -351,8 +351,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/youssefokeil
+      linkedin: https://www.linkedin.com/in/youssef-okeil/
 
   # List pages like blogs and posts
   listPages:
