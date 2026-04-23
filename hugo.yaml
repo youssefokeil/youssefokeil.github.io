@@ -151,7 +151,8 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "pytorch"
+        - "PyTorch"
+        - "Stable-Baseline-3"
         - "python"
         - "FastAI"
         - "Linux"
@@ -163,6 +164,7 @@ params:
         - "SHAP"
         - "LIME"
         - "Anthropic's Circuit Tracer"
+        - "GitHub Workflows"
 
   # Experience
   experience:
@@ -275,101 +277,126 @@ params:
         url: https://example.com
 
   # projects
-projects:
-  enable: true
-  items:
-    - title: ARENA 3.0 - Mechanistic Interpretability & AI Safety
-      content: Implemented core ML and AI safety concepts from scratch following the ARENA 3.0 curriculum, covering information theory, transformer architectures, and mechanistic interpretability techniques including activation patching and circuit analysis.
-      image: /images/projects/arena.png
-      featured:
-        name: GitHub
-        link: https://github.com/youssefokeil/arena-3.0
-      badges:
-        - "Python"
-        - "PyTorch"
-        - "TransformerLens"
-        - "HuggingFace"
-      links:
-        - icon: fab fa-github
-          url: https://github.com/youssefokeil/arena-3.0
+  projects:
+    enable: true
+    items:
+      - title: ARENA 3.0 - Mechanistic Interpretability & AI Safety
+        content: Implemented core ML and AI safety concepts from scratch following the ARENA 3.0 curriculum, covering information theory, transformer architectures, and mechanistic interpretability techniques including activation patching and circuit analysis. We also implemented Resnet-34, GPT-2 & VAEs from scratch.
+        image: /images/projects/arena.png
+        featured:
+          name: GitHub
+          link: https://github.com/youssefokeil/arena-3.0
+        badges:
+          - "Python"
+          - "PyTorch"
+          - "TransformerLens"
+          - "HuggingFace"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/youssefokeil/arena-3.0
 
-    - title: BERT Hiring Model - Bias Detection and Mitigation
-      content: Trained BERT classifier with intentionally imbalanced data; developed counterfactual augmentation pipeline to detect and mitigate gender bias in automated hiring decisions.
-      image: /images/projects/bert-bias.png
-      featured:
-        name: GitHub
-        link: https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model
-      badges:
-        - "Python"
-        - "BERT"
-        - "SHAP"
-        - "FairML"
-        - "PyTorch"
-      links:
-        - icon: fab fa-github
-          url: https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model
+      - title: BERT Hiring Model - Bias Detection and Mitigation
+        content: Trained BERT classifier with intentionally imbalanced data; developed counterfactual augmentation pipeline to detect and mitigate gender bias in automated hiring decisions.
+        image: /images/projects/bias-detection.png
+        featured:
+          name: GitHub
+          link: https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model
+        badges:
+          - "Python"
+          - "BERT"
+          - "SHAP"
+          - "FairML"
+          - "PyTorch"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model
 
-    - title: Style Transfer Implementation
-      content: Reimplemented neural style transfer from the Gatys et al. paper using a 19-layer VGG Network, demonstrating ability to translate a mathematical algorithm from academic literature into clean, working Python code.
-      image: /images/projects/style-transfer.png
-      featured:
-        name: GitHub
-        link: https://github.com/youssefokeil/Gatys-et-Al-reimplementation
-      badges:
-        - "Python"
-        - "PyTorch"
-        - "VGG-19"
-        - "CNN"
-      links:
-        - icon: fab fa-github
-          url: https://github.com/youssefokeil/Gatys-et-Al-reimplementation
+      - title: Style Transfer Implementation
+        content: Reimplemented neural style transfer from the Gatys et al. paper using a 19-layer VGG Network, demonstrating ability to translate a mathematical algorithm from academic literature into clean, working Python code.
+        image: /images/projects/style-transfer.jpg
+        featured:
+          name: GitHub
+          link: https://github.com/youssefokeil/Gatys-et-Al-reimplementation
+        badges:
+          - "Python"
+          - "PyTorch"
+          - "VGG-19"
+          - "CNN"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/youssefokeil/Gatys-et-Al-reimplementation
 
-    - title: Shoplifting Detection using Computer Vision
-      content: Built end-to-end video analysis pipeline using LSTM and Visual Transformer (ViT) for real-time anomaly detection; structured as a callable Python module with a clear API.
-      image: /images/projects/shoplifting.png
-      featured:
-        name: GitHub
-        link: https://github.com/youssefokeil/Shoplifting-Detection
-      badges:
-        - "Python"
-        - "PyTorch"
-        - "LSTM"
-        - "ViT"
-        - "OpenCV"
-      links:
-        - icon: fab fa-github
-          url: https://github.com/youssefokeil/Shoplifting-Detection
+      - title: Shoplifting Detection using Computer Vision
+        content: Built end-to-end video analysis pipeline using LSTM and Visual Transformer (ViT) for real-time anomaly detection; structured as a callable Python module with a clear API.
+        image: /images/projects/shoplifting.png
+        featured:
+          name: GitHub
+          link: https://github.com/youssefokeil/Shoplifting-Detection
+        badges:
+          - "Python"
+          - "PyTorch"
+          - "LSTM"
+          - "ViT"
+          - "OpenCV"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/youssefokeil/Shoplifting-Detection
+      - title: Quoridor Game Implementation
+        content: Develop a fully functional implementation of the board game Quoridor, featuring a graphical user interface (GUI), AI opponents of varying difficulty, and professional documentation. 
+        image: /images/projects/Quoridor-AI.png
+        featured:
+          name: Demo
+          link: https://youtu.be/1Aj5UWprUiU?si=T-rPFKOfs4fwWZwr
+        badges:
+          - "Pathfinding Algorithms"
+          - "AI Difficulty"
+          - "QT-Sim for GUI"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/MoAmrAwny/Quoridor-Game-Implementation
 
-    - title: Architecture Style Classifier
-      content: Applied transfer learning with ResNet-34 and deployed an interactive Gradio demo on Hugging Face Spaces, gaining experience packaging and releasing Python tools for end-users.
-      image: /images/projects/architecture.png
-      featured:
-        name: Demo
-        link: https://huggingface.co/spaces/Youssef-Okeil/ArchitectureClassifier
-      badges:
-        - "Python"
-        - "ResNet-34"
-        - "FastAI"
-        - "Gradio"
-      links:
-        - icon: fab fa-github
-          url: https://github.com/youssefokeil/Shoplifting-Detection
+      - title: Reinforcement Learning - Q-Learning & PPO
+        content: Trained and deployed Q-Learning agents on FrozenLake and Taxi-v3, and PPO agents on LunarLander and Huggy, publishing model weights and evaluation results to Hugging Face.
+        image: /images/projects/taxi.png
+        featured:
+          name: HuggingFace
+          link: https://huggingface.co/Youssef-Okeil
+        badges:
+          - "Python"
+          - "PyTorch"
+          - "Stable-Baselines3"
+          - "Gymnasium"
+          - "HuggingFace"
+        links:
+          - icon: fab fa-github
+            url: https://huggingface.co/Youssef-Okeil
+      - title: CPU Scheduler Simulator
+        content: Built a GUI-based desktop application in C++ and Qt that simulates FCFS, SJF, Priority, and Round Robin CPU scheduling algorithms in real-time. Features a live Gantt chart, dynamic process addition during runtime, and real-time calculation of waiting and turnaround times. We used only one algorithm for all scheduling algorithms, the trick was changing the comparison algorithm whether to; priority, remaining time, etc. This was an original idea by me.
+        image: /images/projects/scheduler.png
+        featured:
+          name: GitHub
+          link: https://github.com/youssefokeil/OS_project
+        badges:
+          - "C++"
+          - "Qt"
+          - "Operating Systems"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/youssefokeil/OS_project
 
-    - title: Reinforcement Learning - Q-Learning & PPO
-      content: Trained and deployed Q-Learning agents on FrozenLake and Taxi-v3, and PPO agents on LunarLander and Huggy, publishing model weights and evaluation results to Hugging Face.
-      image: /images/projects/rl.png
-      featured:
-        name: HuggingFace
-        link: https://huggingface.co/Youssef-Okeil
-      badges:
-        - "Python"
-        - "PyTorch"
-        - "Stable-Baselines3"
-        - "Gymnasium"
-        - "HuggingFace"
-      links:
-        - icon: fab fa-github
-          url: https://huggingface.co/Youssef-Okeil
+      - title: MIPS Single-Cycle Processor
+        content: Designed and implemented a fully functional MIPS single-cycle processor in Verilog, building each hardware component from scratch including the ALU, control unit, register file, instruction and data memory, program counter, and sign extension unit. Verified correctness via a testbench.
+        image: /images/projects/mips.jpg
+        featured:
+          name: GitHub
+          link: https://github.com/youssefokeil/MIPS_single_cycle
+        badges:
+          - "Verilog"
+          - "Computer Architecture"
+          - "MIPS"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/youssefokeil/MIPS_single_cycle
   #Contact
   contact:
     enable: true
