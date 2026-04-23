@@ -275,55 +275,101 @@ params:
         url: https://example.com
 
   # projects
-  projects:
-    enable: false
-    # title: "Custom Name"
-    items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+projects:
+  enable: true
+  items:
+    - title: ARENA 3.0 - Mechanistic Interpretability & AI Safety
+      content: Implemented core ML and AI safety concepts from scratch following the ARENA 3.0 curriculum, covering information theory, transformer architectures, and mechanistic interpretability techniques including activation patching and circuit analysis.
+      image: /images/projects/arena.png
+      featured:
+        name: GitHub
+        link: https://github.com/youssefokeil/arena-3.0
+      badges:
+        - "Python"
+        - "PyTorch"
+        - "TransformerLens"
+        - "HuggingFace"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/youssefokeil/arena-3.0
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+    - title: BERT Hiring Model - Bias Detection and Mitigation
+      content: Trained BERT classifier with intentionally imbalanced data; developed counterfactual augmentation pipeline to detect and mitigate gender bias in automated hiring decisions.
+      image: /images/projects/bert-bias.png
+      featured:
+        name: GitHub
+        link: https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model
+      badges:
+        - "Python"
+        - "BERT"
+        - "SHAP"
+        - "FairML"
+        - "PyTorch"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+    - title: Style Transfer Implementation
+      content: Reimplemented neural style transfer from the Gatys et al. paper using a 19-layer VGG Network, demonstrating ability to translate a mathematical algorithm from academic literature into clean, working Python code.
+      image: /images/projects/style-transfer.png
+      featured:
+        name: GitHub
+        link: https://github.com/youssefokeil/Gatys-et-Al-reimplementation
+      badges:
+        - "Python"
+        - "PyTorch"
+        - "VGG-19"
+        - "CNN"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/youssefokeil/Gatys-et-Al-reimplementation
 
+    - title: Shoplifting Detection using Computer Vision
+      content: Built end-to-end video analysis pipeline using LSTM and Visual Transformer (ViT) for real-time anomaly detection; structured as a callable Python module with a clear API.
+      image: /images/projects/shoplifting.png
+      featured:
+        name: GitHub
+        link: https://github.com/youssefokeil/Shoplifting-Detection
+      badges:
+        - "Python"
+        - "PyTorch"
+        - "LSTM"
+        - "ViT"
+        - "OpenCV"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/youssefokeil/Shoplifting-Detection
+
+    - title: Architecture Style Classifier
+      content: Applied transfer learning with ResNet-34 and deployed an interactive Gradio demo on Hugging Face Spaces, gaining experience packaging and releasing Python tools for end-users.
+      image: /images/projects/architecture.png
+      featured:
+        name: Demo
+        link: https://huggingface.co/spaces/Youssef-Okeil/ArchitectureClassifier
+      badges:
+        - "Python"
+        - "ResNet-34"
+        - "FastAI"
+        - "Gradio"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/youssefokeil/Shoplifting-Detection
+
+    - title: Reinforcement Learning - Q-Learning & PPO
+      content: Trained and deployed Q-Learning agents on FrozenLake and Taxi-v3, and PPO agents on LunarLander and Huggy, publishing model weights and evaluation results to Hugging Face.
+      image: /images/projects/rl.png
+      featured:
+        name: HuggingFace
+        link: https://huggingface.co/Youssef-Okeil
+      badges:
+        - "Python"
+        - "PyTorch"
+        - "Stable-Baselines3"
+        - "Gymnasium"
+        - "HuggingFace"
+      links:
+        - icon: fab fa-github
+          url: https://huggingface.co/Youssef-Okeil
   #Contact
   contact:
     enable: true
