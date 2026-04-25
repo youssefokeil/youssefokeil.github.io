@@ -38,7 +38,7 @@ markup:
 
 params:
   title: "Youssef Okeil"
-  description: Text about my cool site
+  description: 'Personal portfolio of an AI engineer & AI safety enthusiast'
   # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.ico"
 
