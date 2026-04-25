@@ -256,25 +256,15 @@ params:
 
   # Achievements
   achievements:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Appeared on S8 of "The Geniuses (Al Abakera)" TV Show
+        content: "Alabakera (The Geniuses) is the first and only edutainment TV Show of its kind in Egypt and the Middle East. Each episode consists of a gameshow between two competing schools.\n
+                  I won best-player for ep23 of S8."
+        url: https://youtu.be/Ltk8-5lVbAc?si=fGfmJalEXl-8NOuW
+        image: /images/achievements/abakera.png
+
 
   # projects
   projects:
