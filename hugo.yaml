@@ -60,7 +60,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    defaultTheme: "light" # dark
+    defaultTheme: "dark" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -105,7 +105,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: true
+      disableAchievements: false
       disableContact: false
 
   # Hero
@@ -118,7 +118,7 @@ params:
           Final-year Computer and Systems Engineering student with strong Python and C/C++ skills and passion for information & probability theories as lenses for learning about the world. 
     
           Actively seeking AI Safety opportunities to decrease catastrophic risks from ASI & AGI.
-    image: /images/hero.jpg
+    image: /images/hurghadaimg.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -137,7 +137,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.jpg"
+    image: "/images/stctrn.jpeg"
     bottomImage:
       enable: true
       roundimage: false

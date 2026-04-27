@@ -246,6 +246,13 @@ Tags | Youssef Okeil
                     
 
                     
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Achievements
+                        </a>
+                    </li>
+                    
 
                     
                     <li class="nav-item navbar-text">
@@ -384,14 +391,12 @@ Tags | Youssef Okeil
 </div>
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (document.body.className.includes("dark")) {
-        document.body.classList.remove('dark');
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem("pref-theme", 'light');
+    if (document.body.className.includes("light")) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
     }
 </script>
-
-
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
