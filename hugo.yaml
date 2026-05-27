@@ -270,7 +270,7 @@ params:
   projects:
     enable: true
     items:
-      - title: ARENA 3.0 - Mechanistic Interpretability & AI Safety
+      - title: ARENA 3.0 - Mechanistic Interpretability & AI Safety (WIP)
         content: Implemented core ML and AI safety concepts from scratch following the ARENA 3.0 curriculum, covering information theory, transformer architectures, and mechanistic interpretability techniques including activation patching and circuit analysis. We also implemented Resnet-34, GPT-2 & VAEs from scratch.
         image: /images/projects/arena.png
         featured:
