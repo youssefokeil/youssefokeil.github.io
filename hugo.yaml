@@ -137,7 +137,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/stctrn.jpeg"
+    image: "/images/grad.jpeg"
     bottomImage:
       enable: true
       roundimage: false
